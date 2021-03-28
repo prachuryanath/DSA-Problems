@@ -10,6 +10,7 @@ const maxSubArray = nums => {
     
     return max;
 };
+// ***Kadane's Algorithm***
 // 1.set initials
 // 1.1 first value in the array. It doesn’t matter to us whether max is positive or negative.
 // 1.2 we need an intermediate current positive value, because a negative value does not interest us, since -2 is always more than -5 and it means 0 + -2 > -5.
