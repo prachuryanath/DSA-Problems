@@ -1,6 +1,6 @@
-class Solution:
-    def mySqrt(self, x: int) -> int:
-        return int(sqrt(x))
+# class Solution:
+#     def mySqrt(self, x: int) -> int:
+#         return int(sqrt(x))
 
 
 # Binary Search Implementation :
